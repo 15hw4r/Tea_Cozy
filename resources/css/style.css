@@ -1,0 +1,153 @@
+html{
+  background-color: black;
+  font-family: helvetica;
+  color: seashell;
+  opacity: 0.9;
+  font-size: 22px;
+  text-align: center;
+}
+/**header**/
+header{
+  position: fixed;
+  z-index: 2;
+  background-color: black;
+  border-bottom: seashell;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  position:fixed;
+}
+.logo{
+  height: 50px;
+  float: left;
+  padding-left: 10px;
+  opacity: 0.9;
+  padding: 10px;
+}
+.header_list{
+  display: inline-flex;
+  text-decoration: underline;
+}
+.nav_bar{
+  padding-right: 10px;
+}
+.nav_bar ul{
+  list-style-type: none;
+}
+.nav_tea,
+.nav_mission,
+.nav_locations{
+  padding-left: 20px
+}
+.nav_tea a,
+.nav_mission a,
+.nav_locations a {
+  font-family: helvetica;
+  color: seashell;
+  opacity: 0.9;
+  font-size: 22px;
+  text-align: center;
+}
+/**end of header**/
+
+
+/**Main**/
+main{
+  position: relative;
+  top: 80px;
+}
+.ourmission{
+  position: relative;
+  bottom: 450px;
+  background-color: black;
+}
+
+.ourmission h2 {
+  padding-top: 1px;
+  margin: 1px;
+}
+.ourmission h4 {
+  padding-bottom: 10px;
+}
+.background_mission{
+  margin-bottom: -100px;
+}
+.background_image {
+  height: 700px;
+  width: 90%;
+}
+
+.teaofthemonth{
+  width: 1000px;
+  margin: auto;
+}
+.berryblitz img,
+.spicedrum img,
+.donut img,
+.myrtleave img,
+.bedfordbizarre img {
+  height: 200px;
+  width: 300px;
+}
+
+.first_three_images{
+  display: inline-flex;
+}
+.last_two_images{
+  display: inline-flex;
+}
+.spicedrum,
+.donut,
+.bedfordbizarre{
+  padding-left: 30px;
+}
+.berryblitz h4,
+.spicedrum h4,
+.donut h4,
+.myrtleave h4,
+.bedfordbizarre h4{
+  margin-top: 10px;
+}
+.locations{
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+.downtown, .eastbay, .oaklade{
+  background-color: black;
+  width: 300px;
+  display: inline-block;
+  opacity: 1;
+}
+.eastbay, .oaklade{
+  margin-left: 40px;
+}
+.locations h2{
+  margin-bottom: 15px;
+  padding-top: 80px;
+  font-weight: bold;
+}
+.black_boxes{
+  padding-top: 15px;
+}
+.black_boxes h4{
+  font-weight: lighter;
+}
+/**end of main**/
+
+/**footer**/
+footer{
+  padding-top: 90px;
+}
+.contact_detail{
+  height: 200px;
+}
+.copyright{
+  padding-left: 20px;
+  text-align: left;
+}
+/**end of footer**
